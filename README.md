@@ -1,8 +1,8 @@
 # Welcome to CrazyBaaS
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Build Status](https://travis-ci.org/crazycoderlabs/crazybaas.svg?branch=master)](https://travis-ci.org/crazycoderlabs/crazybaas)
 [![GoReport](https://goreportcard.com/badge/github.com/crazycoderlabs/crazybaas)](https://goreportcard.com/report/github.com/crazycoderlabs/crazybaas)
+
 CrazyBaaS is just another BaaS (Backend-as-as-Service) tool.
 
 ## Technology Stack

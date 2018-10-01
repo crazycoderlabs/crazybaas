@@ -2,10 +2,6 @@ language: go
 
 go:
   - "1.9"
-  - "1.10"
-  - "1.11"
-  - "tip"
-
 os:
   - linux
   - osx
@@ -16,22 +12,21 @@ sudo: false
 branches:
   only:
     - master
-    - develop
 
 #services:
   # github.com/revel/revel/cache
   #- memcache
   #- redis-server
 
-before_install:
+#before_install:
   # TRAVIS_OS_NAME - linux and osx
-  - echo $TRAVIS_OS_NAME
-  - |
-    if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then
-      brew update && brew install memcached redis && brew services start redis && brew services start memcached
-    fi
-  - redis-server --daemonize yes
-  - redis-cli info
+  #- echo $TRAVIS_OS_NAME
+  #- |
+  #  if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then
+  #    brew update && brew install memcached redis && brew services start redis && brew services start memcached
+  #  fi
+  #- redis-server --daemonize yes
+  #- redis-cli info
 
 install:
   # Setting environments variables
@@ -54,6 +49,6 @@ script:
   # - revel test github.com/revel/examples/persona
   # Build & run the sample apps
   - revel test -v -a github.com/crazycoderlabs/crazybaas
-matrix:
-  allow_failures:
-    - go: tip
+#matrix:
+#  allow_failures:
+#    - go: tip

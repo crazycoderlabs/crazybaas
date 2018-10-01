@@ -1,15 +1,21 @@
-# Welcome to Revel
+# Welcome to CrazyBaaS
 
-A high-productivity web framework for the [Go language](http://www.golang.org/).
+CrazyBaaS is just another BaaS (Backend-as-as-Service) tool.
 
+##Technology Stack
+- golang
+- Revel
+##Architecture
+- Plugin Based for Core
+- Microservices for Wrappers
+
+##Developer Notes
 
 ### Start the web server:
 
-   revel run myapp
+    revel run myapp
 
-### Go to http://localhost:9000/ and you'll see:
-
-    "It works"
+   Go to http://localhost:9000/ to login to the Admin UI
 
 ## Code Layout
 
@@ -34,10 +40,5 @@ The directory structure of a generated Revel application:
     tests/            Test suites
 
 
-## Help
-
-* The [Getting Started with Revel](http://revel.github.io/tutorial/gettingstarted.html).
-* The [Revel guides](http://revel.github.io/manual/index.html).
-* The [Revel sample apps](http://revel.github.io/examples/index.html).
-* The [API documentation](https://godoc.org/github.com/revel/revel).
-
+## Maintainers
+- Sarvesh Chitko (chitkosarvesh@gmail.com)

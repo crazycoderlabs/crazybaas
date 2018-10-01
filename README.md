@@ -2,14 +2,14 @@
 
 CrazyBaaS is just another BaaS (Backend-as-as-Service) tool.
 
-##Technology Stack
+## Technology Stack
 - golang
 - Revel
-##Architecture
+## Architecture
 - Plugin Based for Core
 - Microservices for Wrappers
 
-##Developer Notes
+## Developer Notes
 
 ### Start the web server:
 

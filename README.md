@@ -1,5 +1,5 @@
 # Welcome to CrazyBaaS
-
+[![Build Status](https://travis-ci.org/crazycoderlabs/crazybaas.svg?branch=master)](https://travis-ci.org/crazycoderlabs/crazybaas)
 CrazyBaaS is just another BaaS (Backend-as-as-Service) tool.
 
 ## Technology Stack

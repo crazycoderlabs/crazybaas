@@ -41,4 +41,6 @@ The directory structure of a generated Revel application:
 
 
 ## Maintainers
-- Sarvesh Chitko (chitkosarvesh@gmail.com)
+`- Sarvesh Chitko (chitkosarvesh@gmail.com)`
+
+[^Made with <3 by {CrazyCoder} Labs.]

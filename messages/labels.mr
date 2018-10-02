@@ -1,0 +1,7 @@
+[DEFAULT]
+app_name={क्रेझी बैस}
+licence_text={क्रेझी कोडर} लॅब्स. GNU GPL v3 अंतर्गत अनुज्ञाप्तीत.
+signin.login_message=कृपया साइन इन करा
+signin.username_placeholder=वापरकर्तानाव
+signin.password_placeholder=पासवर्ड
+signin.button=साइन इन

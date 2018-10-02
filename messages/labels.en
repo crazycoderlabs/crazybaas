@@ -1,2 +1,13 @@
 [DEFAULT]
 app_name={CrazyBaaS}
+licence_text={CrazyCoder} Labs. Licensed under GNU GPL v3
+signin.login_message=Please sign in
+signin.username_placeholder=Username
+signin.password_placeholder=Password
+signin.button=Sign In
+signin.v.username_required=Username is absolutely required
+signin.v.username_max_size=Max username size is 20
+signin.v.username_min_size=Min username size is 2
+signin.v.password_required=Password is absolutely required
+signin.v.password_max_size=Max password size is 20
+signin.v.password_min_size=Min password size is 2

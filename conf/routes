@@ -1,0 +1,3 @@
+GET     /       App.Index
+GET     /public/*filepath       Static.ServeDir("public")
+GET     /favicon.ico        Static.Serve("public","img/favicon.png")
